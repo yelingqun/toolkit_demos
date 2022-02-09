@@ -34,6 +34,11 @@ if __name__ == "__main__":
     module = create_module()
     optimizer = create_optimizer(module)
 
+    #import toolkit
+    #points = toolkit.pytorch.get_data()
+    #module = toolkit.pytorch.create_module()
+    #optimizer = toolkit.pytorch.create_optimizer(module)
+
     #run the module
     for i in range (1000):
         for x, y in points:
