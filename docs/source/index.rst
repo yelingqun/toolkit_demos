@@ -3,42 +3,25 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to toolkit's documentation!
-===================================
+Toolkit Demos
+====================
+This is a project to demostrate how to use bioinformatics & AI tools.
+
+How to use
+^^^^^^^^^^^
+Download and run pipeline.py file in tool directory.
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :caption: Main
+   :maxdepth: 1
+   :hidden:
 
+   install
+   api
 
+.. toctree::
+   :caption: Tutorials
+   :maxdepth: 1
+   :hidden:
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
-Toolkit functions
-===================
-
-.. currentmodule:: toolkit
-
-.. autosummary::
-   :toctree: .
-
-   pytorch.get_data
-   pytorch.create_module
-   pytorch.create_optimizer
-   mnist.load_data
-   mnist.first_item
-
-scVelo velocity estimation
-============================
-
-.. currentmodule:: scvelo
-
-.. autosummary:: 
-   :toctree: .
-
-   tl.velocity
+   get_started
