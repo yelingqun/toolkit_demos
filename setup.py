@@ -26,5 +26,5 @@ setuptools.setup(
         'scipy>=1.4.1',
         'torchvision',
         'torch>=1.9.0'],
-    python_requires=">=3.8",
+    python_requires=">=3.7",
 )
