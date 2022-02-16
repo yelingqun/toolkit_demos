@@ -3,4 +3,5 @@ version: 2
 # Set the version of Python and other tools you might need
 build:
   tools:
+    os: ubuntu-20.04
     python: "3.8"
