@@ -23,6 +23,8 @@ setuptools.setup(
     install_requires=[
         'pandas>=1.3.1',
         'numpy>=1.19.5',
-        'scipy>=1.4.1'],
+        'scipy>=1.4.1',
+        'torchvision',
+        'torch>=1.9.0'],
     python_requires=">=3.8",
 )
