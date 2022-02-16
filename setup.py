@@ -24,5 +24,5 @@ setuptools.setup(
         'pandas>=1.3.1',
         'numpy>=1.19.5',
         'scipy>=1.4.1'],
-    python_requires=">=3.7",
+    python_requires=">=3.8",
 )
